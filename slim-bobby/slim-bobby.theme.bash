@@ -18,7 +18,7 @@ function prompt_command() {
     #
     # PS1="\n$(battery_char) $(clock_char) ${yellow}$(ruby_version_prompt) ${purple}\h ${reset_color}in ${green}\w\n${bold_cyan}$(scm_char)${green}$(scm_prompt_info) ${green}→${reset_color} "
     #
-    PS1="\n${bold_cyan}$(date +"%Y-%m-%d %H:%M:%S") ${reset_color}\w\n$(scm_prompt_info)${bold_white}\$${reset_color} "
+    PS1="\n${bold_cyan}$(date +"%Y-%m-%d %H:%M:%S") ${bold_purple}\w\n$(scm_prompt_info)\n${bold_white}\$${reset_color} "
 }
 
 PROMPT_COMMAND=prompt_command;
