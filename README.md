@@ -1,32 +1,36 @@
-# Slim-Bobby
-A simpler version of the [bobby](https://github.com/Bash-it/bash-it/tree/master/themes/bobby) theme for [Bash-it](https://github.com/Bash-it/bash-it).  
-It only displays the date and time, current working directory, and git project information.  
+# Peacock
+A colorful [Bash-it](https://github.com/Bash-it/bash-it) theme used for my own playing and experimenting.  
 
 ![screenshot](https://github.com/chrisvanwagoner/bash-it-theme-slim-bobby/blob/master/screenshot.png)
 
 ### Installation  
 
-* Honestly, just clone or download this project to directory like your `Desktop` or someplace you can delete it easily afterward.  
+* Honestly, just clone or download this project to directory like your `Desktop` or some place you can delete it easily afterward.  
 
->
-$ git clone https://github.com/chrisvanwagoner/bash-it-theme-slim-bobby.git  
-$ cd bash-it-theme-slim-bobby;ls  
->  
+``` bash
+$ git clone https://github.com/chrisvanwagoner/bash-it-theme-peacock.git  
+$ cd bash-it-theme-peacock;ls  
+```
 
 * Navigate into the project  
-* Copy the `slim-bobby` directory into `.bash_it/themes`  
+* Copy the `peacock` directory into `.bash_it/themes`  
     - Typically this is in your home directory  
 
->$ cp slim-bobby/ ~/.bash_it/themes/
+``` bash
+$ cp peacock/ ~/.bash_it/themes/
+```
 
 ### Usage  
 
 * In your `.bash_profile`, change the value of BASH_IT_THEME
 
-> export BASH_IT_THEME='slim-bobby'
+``` bash
+export BASH_IT_THEME='peacock'
+```
 
 * Reload your Bash profile using the Bash-it alias
 
->$ reload
-
-* Delete the `bash-it-theme-slim-bobby` project directory you originally cloned
+``` bash
+$ reload
+```
+* Delete the `bash-it-theme-peacock` project directory you originally cloned
