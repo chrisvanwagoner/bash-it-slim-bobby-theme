@@ -22,7 +22,7 @@ RVM_THEME_PROMPT_PREFIX="|"
 RVM_THEME_PROMPT_SUFFIX="|"
 
 function prompt_command() {
-    PS1="\n${bold_cyan}$(date +"📅  %m/%d 🕔  %H:%M")$(scm_prompt_info)\n${bold_green}\w\n${reset_color}🔮  "
+    PS1="\n$(battery_char) ${bold_cyan}$(date +"📅  %m/%d 🕔  %H:%M")$(scm_prompt_info)\n${bold_green}\w\n${reset_color}🔮  "
 }
 
 PROMPT_COMMAND=prompt_command;
