@@ -5,7 +5,7 @@ SCM_THEME_PROMPT_PREFIX=" |"
 SCM_THEME_PROMPT_SUFFIX="${green}|"
 
 GIT_THEME_PROMPT_DIRTY=" ${bold_red}dirty "
-GIT_THEME_PROMPT_CLEAN=" ${{bold_green}clean "
+GIT_THEME_PROMPT_CLEAN=" ${bold_green}clean "
 GIT_THEME_PROMPT_PREFIX=" ${reset_color}branch:"
 GIT_THEME_PROMPT_SUFFIX=" "
 
