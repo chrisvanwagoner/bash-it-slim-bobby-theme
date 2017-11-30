@@ -5,11 +5,11 @@ A colorful [Bash-it](https://github.com/Bash-it/bash-it) theme used for my own p
 
 ### Installation  
 
-* Honestly, just clone or download this project to directory like your `Desktop` or some place you can delete it easily afterward.  
+* Clone or download this project to directory like your `Desktop` or some place you can delete it easily afterward.  
 
 ``` bash
 $ git clone https://github.com/chrisvanwagoner/bash-it-theme-peacock.git  
-$ cd bash-it-theme-peacock;ls  
+$ cd bash-it-theme-peacock  
 ```
 
 * Navigate into the project  
@@ -22,7 +22,7 @@ $ cp peacock/ ~/.bash_it/themes/
 
 ### Usage  
 
-* In your `.bash_profile`, change the value of BASH_IT_THEME
+* In your `.bash_profile`, assign the value of BASH_IT_THEME to this theme.
 
 ``` bash
 export BASH_IT_THEME='peacock'
